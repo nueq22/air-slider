@@ -1,0 +1,38 @@
+<!DOCTYPE hmtl>
+<html>
+	<head>
+		<title>air-slider</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="air-slider/air-slider.min.css">
+		<style>
+			body{
+				font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>air-slider</h1>
+		<h2>Very simple and lightweight pure js slider</h2>
+		<div class="air-slider">
+			<div class="slide">
+				<img src="img/image1.jpg" alt="slide1"/>
+			</div>
+			<div class="slide">
+				<img src="img/image2.jpeg" alt="slide2"/>
+			</div>
+			<div class="slide">
+				<img src="img/image3.jpeg" alt="slide3"/>
+			</div>
+		</div>
+		<script src="air-slider/air-slider.min.js"></script>
+		<script>
+			var slider = new airSlider({
+				autoPlay: true,
+				width: '600px',
+				height: '300px'
+			});
+		</script>
+	</body>
+</html>
